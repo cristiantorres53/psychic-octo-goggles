@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(236, 233, 43);
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+.principal a{
+    text-decoration: none;
+}
+.nombre{
+    margin-top:1.5%;
+    color: rgb(11, 66, 121);
+}
+.search{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 350px;
+    margin-top: 10%;
+}
+.tecnoOfertas{
+    cursor: pointer;
+    padding: 0 30px;
+    display: flex;
+    gap: 8px;
+}
+.logosOferta{
+    height: 30px;
+    margin-top: 35px;
+}
+.tecnoOfertas h4{
+    display: flex;
+    align-items: center;
+    
+}
+.btnsPrincipal{
+    display: flex;
+    justify-content: space-around;
+    padding:0 30px 20px ;
+    align-items: center;
+    margin-bottom: 0;
+    height: 10px;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+}
+.btnCarrito{
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#sectionDetail{
+    
+    padding: 5% 25%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+#divImg{
+    width: 460px;
+    height: 500px;
+    
+}
+
+#imgDiv{
+    width: auto;
+    height: auto;
+    
+}
+
+#divDescripcion{
+    margin-left: 10%;
+
+    width: 80%;
+    height: 80%;
+    padding: 10%;
+}
+
+#divDescripcion img{
+    height: 20px;
+    margin: 10px;
+}
+
+#imgDescription{
+    height: 10px;
+}
+
+#buttonComprar{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3884fc;
+    border: none;
+    color: white;
+}
+
+#divDescripcionProducto{
+     padding: 0 9% 0;
+}
+
+.primeraSeccion{
+    margin: 20px; 
+}
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+.contenedor::-webkit-scrollbar{
+    width: 0;
+}
+
+.hijoImg{
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.hijoImg:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+transform:scale(1.1);
+box-shadow: 2px 0px 26px 1px #000000;
+}
+.hijoImg img {
+    width: 250px;
+    padding: 20px;
+    
+}
+
+.hijoNombreProducto{
+    margin-top: 20px;
+    text-align: center;
+    font-size: large;
+}
+
+.hijoPrecioProducto{
+    text-align: center;
+    font-size: x-large;
+}
+
+
+.footer{
+    border-top: 1px solid grey;
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+.btnsFooter{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+
+.info{
+    font-size: 10px;
+    color: grey;
+    margin-left: 20px;
+}
+.imgFooter{
+    margin-left: 20px;
+
+}
+
+.titulo{
+    margin-bottom: 2%;
+}
+
+.segundaSeccion{
+    padding: 2% 8%;
+    margin: 20px;
+}
+.contenedorSegundaSeccion{
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    margin: 0 auto;
+    overflow-x: scroll;
+}
+.contenedorSegundaSeccion::-webkit-scrollbar{
+    width: 0;
+}
