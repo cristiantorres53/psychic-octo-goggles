@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sugerencias</title>
+    <link rel="stylesheet" href="./style/sugerencias.css">
+</head>
+<body>
+    <header class="header">
+        <div class="principal">
+            <div class="logoNombre">
+                <a href="./index.html"><img class="logo" src="./images/logo.png" width="100px"></a>
+                <a href="./index.html"><h1 class="nombre">Free Market</h1></a>
+            </div>
+            <h5>Ayuda/PQRS</h5>
+        </div>
+      </header>
+      <main>
+        <center>
+            <h2>Hola... ¿En que podemos ayudarte?</h2>
+            <form id="form" class="form">
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" required>
+                </div>
+                <div>
+                    <label for="apellido">Apellido</label>
+                    <input id="apellido" type="text" required>
+                </div>
+                <div>
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" type="number" required>
+                </div>
+                <div>
+                    <label for="direccion">Direccion</label>
+                    <input id="direccion" type="text" required>
+                </div>
+                <div class="observaviones">
+                    <label for="observaciones">Observaciones:</label><br>
+                    <textarea name="observaciones" id="observaciones" cols="30" rows="10" required></textarea>
+                </div>
+                <button id="enviar">Enviar datos</button>
+            </form> 
+        </center>
+      </main>
+    <script src="./scripts/sugerencias.js"></script>
+</body>
+</html>
