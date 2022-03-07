@@ -57,3 +57,112 @@ header{
     background-color: transparent;
     cursor: pointer;
 }
+.footer{
+    border-top: 1px solid grey;
+    font-size: 15px;
+    margin-left: 20px;
+    display: flex;
+    gap: 60px;
+}
+.btnsFooter{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+.info{
+    font-size: 10px;
+    color: grey;
+    margin-left: 20px;
+}
+.imgFooter{
+    margin-left: 20px;
+}
+
+.titulo{
+    margin-bottom: 2%;
+}
+.primeraSeccion h2{
+    margin: 20px;
+}
+.todos{
+    border: 1px solid;
+    height: 389px;
+    margin-left: 20px;
+}
+
+.hijoImg{
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    overflow-x: scroll;
+    gap: 10px;
+    height: 410px;
+    
+}
+
+.hijoImg img{
+    width: 275px;
+    cursor: pointer;
+    height: 275px;
+    margin-top: 10px;
+}
+.hijoImg::-webkit-scrollbar{
+    width: 0;
+}
+ .todos:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-ms-transform:scale(1.1);
+-o-transform:scale(1.1);
+transform:scale(1.1);
+box-shadow: 2px 0px 26px 1px #000000;
+} 
+.segundaSeccion h2{
+    margin: 20px;
+}
+.favoritos{
+    border: 1px solid;
+    height: 389px;
+    margin-left: 20px;
+}
+.favoritos:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    box-shadow: 2px 0px 26px 1px #000000;
+    } 
+.terceraSeccion h2{
+    margin: 20px;
+}
+.ofertas{
+    border: 1px solid;
+    height: 389px;
+    margin-left: 20px;
+}
+.ofertas:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    box-shadow: 2px 0px 26px 1px #000000;
+    } 
+.cuartaSeccion h2{
+    margin: 20px;
+}
+.supermercado{
+    border: 1px solid;
+    height: 389px;
+    margin-left: 20px;
+}
+.supermercado:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    box-shadow: 2px 0px 26px 1px #000000;
+    } 
+
