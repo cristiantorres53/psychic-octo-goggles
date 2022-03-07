@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(236, 233, 43);
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+}
+.principal a{
+    text-decoration: none;
+}
+.nombre{
+    margin-top:1.5%;
+    color: rgb(11, 66, 121);
+}
+.search{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 350px;
+    margin-top: 10%;
+}
+.tecnoOfertas{
+    cursor: pointer;
+    padding: 0 30px;
+    display: flex;
+    gap: 8px;
+}
+.logosOferta{
+    height: 30px;
+    margin-top: 35px;
+}
+.tecnoOfertas h4{
+    display: flex;
+    align-items: center;
+    
+}
+.btnsPrincipal{
+    display: flex;
+    justify-content: space-around;
+    padding:0 30px 20px ;
+    align-items: center;
+    margin-bottom: 0;
+    height: 10px;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+}
+.btnCarrito{
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
