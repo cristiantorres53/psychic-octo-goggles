@@ -38,6 +38,25 @@ section{
     padding: 5% 20%;    
 }
 
-.form-login{
+.lbl-login{
+    margin-right: 20%;
+}
 
+.form-login{
+    display: flex;
+    padding: 2%;
+}
+
+input{
+    border-radius: 5px;
+    height: 20px;
+}
+button{
+    padding: 7px 15px;
+    background-color: rgb(11, 66, 121) ;
+    color: white;
+}
+label{
+    color: rgb(11, 66, 121);
+    font-size: 25px;
 }
