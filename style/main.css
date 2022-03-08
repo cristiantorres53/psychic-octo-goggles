@@ -39,6 +39,12 @@ header{
     align-items: center;
     
 }
+
+.btn a{
+    color: #000000;
+    text-decoration: none;
+}
+
 .btnsPrincipal{
     display: flex;
     justify-content: space-around;
