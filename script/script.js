@@ -3,7 +3,7 @@ const todos = document.getElementById('todos')
 // Funcion de obtener datos
 async function getImagenes (){
     try {
-        const resp = await fetch('https://ev2022.herokuapp.com/');
+        const resp = await fetch('https://ev2022.herokuapp.com/Productos/');
         const data = await resp.json()
         return data
     }catch (error){
