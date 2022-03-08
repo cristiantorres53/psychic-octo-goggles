@@ -24,36 +24,55 @@
         <form action="" class="form-registro" id="formulario">
             
             <div class="form-login">
-                <label class="lbl-login" for="">foto</label>
+                <label class="lbl-login" for="id">id</label>
+                <input type="number" name="" id="id" >
+            </div>
+
+
+            <div class="form-login">
+                <label class="lbl-login" for="photo">foto</label>
                 <img id="photo" src="https://i.pinimg.com/236x/6d/5e/38/6d5e38d19bf4c0c9554b1e6beab75952.jpg" alt="">
             </div>
 
             <div class="form-login">
-                <label class="lbl-login" for="">Nombre</label>
-                <input class="input-nombre" type="text" placeholder="ingrese nombre">
+                <label class="lbl-login" for="nombre">Nombre</label>
+                <input class="input-nombre" id="nombre" type="text" placeholder="ingrese nombre">
             </div>
             <div class="form-login">
-                <label class="lbl-login" for="">Apellido</label>
-                <input class="input-apellido" type="text" placeholder="ingrese apellido">
+                <label class="lbl-login" for="apellido">Apellido</label>
+                <input class="input-apellido" id="apellido" type="text" placeholder="ingrese apellido">
             </div>
             <div class="form-login">
-                <label class="lbl-login" for="">Fecha Nacimiento</label>
-                <input class="input-fechaNacimiento" type="date" placeholder="ingrese feccha nacimiento">
+                <label class="lbl-login" for="fecha">Fecha Nacimiento</label>
+                <input class="input-fechaNacimiento" id="fecha" type="date" placeholder="ingrese feccha nacimiento">
             </div>
             <div class="form-login">
-                <label class="lbl-login" for="">Cedula</label>
-                <input class="input-cedula" type="number" placeholder="ingrese cedula">
+                <label class="lbl-login" for="cedula">Cedula</label>
+                <input class="input-cedula" id="cedula" type="number" placeholder="ingrese cedula">
             </div>
             <div class="form-login">
-                <label class="lbl-login" for="">Correo</label>
-                <input class="input-correo" type="email" placeholder="ingrese correo">
+                <label class="lbl-login" for="correo">Correo</label>
+                <input class="input-correo" id="correo" type="email" placeholder="ingrese correo">
             </div>
-            <div class="form-login">
+            <!-- <div class="form-login">
                 <label class="lbl-login" for="">Contraseña</label>
                 <input class="input-contraseña" type="password" placeholder="ingrese contraseña">
-            </div>
-            <div class="form-login" >
+            </div> -->
+            <div class="" >
                 <button id="btnGuardar" type="submit">Registrar</button>
+            </div>
+
+            <div class="">
+                <button id="btnCorreo" type="button" class="btn btn-secondary buttom guardar-cambios">Buscar por
+                    correo</button>
+            </div>
+            <div class="">
+                <button id="btnEditar" type="button"
+                    class="btn btn-secondary buttom guardar-cambios">Editar</button>
+            </div>
+            <div class="">
+                <button id="btnEliminar" type="button"
+                    class="btn btn-secondary buttom guardar-cambios">Eliminar</button>
             </div>
         </form>
 
