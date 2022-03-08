@@ -20,7 +20,7 @@ formulario.addEventListener('submit', async e => {
     let correo = document.getElementsByClassName('input-correo').value
     let pass = document.getElementsByClassName('input-contraseña').value
 
-    let resp = await fetch(url, {
+    await fetch(url, {
         method: 'POST',
         body: JSON.stringify({
             nombre: nombre,
