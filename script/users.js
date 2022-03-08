@@ -31,15 +31,13 @@ formulario.addEventListener('submit', async e => {
             cedula: cedula,
             correo: correo,
             pass:pass
-        
+            // console.log("estoy aca")
         }),
         headers: {
             "Content-Type": "application/json; charset=UTF-8"
         }
     })
-    document.getElementById("formulario").reset()
-
-    
+    document.getElementById("formulario").reset() 
 })
 
 
