@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(236, 233, 43);
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.logoNombre{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nombre{
+    margin-top:1.5%;
+    color: rgb(11, 66, 121);
+}
+.principal h5{
+    color: rgb(11, 66, 121);
+}
+.principal a{
+    text-decoration: none;
+}
+h2{
+    margin-top: 50px;
+}
+.form{
+    margin: 50px 500px;
+    padding: 30px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
