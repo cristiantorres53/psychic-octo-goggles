@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 formulario.addEventListener('submit', async e => {
     e.preventDefault()
 
+    let foto = document.getElementById('photo').value
     let nombre = document.getElementsByClassName('input-nombre').value
     let apellido = document.getElementsByClassName('input-apellido').value
     let fechaNacimiento = document.getElementsByClassName('input-fechaNacimiento').value
@@ -23,18 +24,22 @@ formulario.addEventListener('submit', async e => {
     await fetch(url, {
         method: 'POST',
         body: JSON.stringify({
+            foto: foto,
             nombre: nombre,
             apellido: apellido,
             fechaNacimiento : fechaNacimiento,
             cedula: cedula,
             correo: correo,
             pass:pass
+            console.log("estoy aca")
         }),
         headers: {
             "Content-Type": "application/json; charset=UTF-8"
         }
     })
     document.getElementById("formulario").reset()
+
+    
 })
 
 

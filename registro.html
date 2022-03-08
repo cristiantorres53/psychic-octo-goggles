@@ -21,7 +21,13 @@
     </header>
 
     <main>
-        <form action="" class="form-registro">
+        <form action="" class="form-registro" id="formulario">
+            
+            <div class="form-login">
+                <label class="lbl-login" for="">foto</label>
+                <img id="photo" src="https://i.pinimg.com/236x/6d/5e/38/6d5e38d19bf4c0c9554b1e6beab75952.jpg" alt="">
+            </div>
+
             <div class="form-login">
                 <label class="lbl-login" for="">Nombre</label>
                 <input class="input-nombre" type="text" placeholder="ingrese nombre">
@@ -46,11 +52,9 @@
                 <label class="lbl-login" for="">Contraseña</label>
                 <input class="input-contraseña" type="password" placeholder="ingrese contraseña">
             </div>
-            <div class="form-login">
-                <button type="submit">Registrar</button>
+            <div class="form-login" >
+                <button id="btnGuardar" type="submit">Registrar</button>
             </div>
-
-
         </form>
 
     </main>
